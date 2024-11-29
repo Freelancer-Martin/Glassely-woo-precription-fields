@@ -1,0 +1,339 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.pt-bg-blue span:first-child a {
+  background-color: #2980B9;
+  color: #fcfcfc;
+  border: none !important;
+  margin: 0px !important;
+}
+
+.pt-bg-blue a {
+    border: 0px solid #2980B9 !important;
+    color: white !important;
+    margin-top: 0px !important;
+    background-color: #2980B9;
+    width: 50%;
+    font-size: 12px;
+    text-transform: none !important;
+
+}
+
+.add-lenses-button  {
+    background-color: #333333;
+    border-color: #333333;
+    font-size: 14px;
+
+}
+
+.add-lenses-button-text {
+    background-color: #333333;
+    border-color: #333333;
+    font-size: 14px;
+    margin-right: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 5px;
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    display: list-item;
+    list-style: none;
+    color: white;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+}
+
+ .quest-front-end-prescription-container,
+ .front-end-prescription-container {
+    text-align: center;
+    background-color: #fafafa;
+ }
+
+ .my-account-input-field {
+   width: 7em !important;
+
+   padding: 5px;
+   margin: 5px;
+
+ }
+
+ .select-input {
+   width: 5em !important;
+ }
+
+.field-label-text {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: lighter;
+
+
+}
+
+.my-account-input-field {
+    background-color: white;
+}
+
+.input-container {
+    display: inline-block;
+    font-weight: lighter;
+}
+
+.input-container label {
+
+    font-weight: lighter;
+}
+
+.my-account-input-field-text {
+  padding: 0em;
+  margin: 5px;
+  text-align: center;
+  font-size: 18px;
+  width: 7em;
+}
+
+.my-account-input-info a {
+  color: #3f76ca !important;
+}
+
+.my-account-input-info {
+
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: #3f76ca;
+}
+
+.my-account-input-info a {
+  color: #3f76ca;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation--prescription   ul li > a::after {
+
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--prescription   > a::after {
+
+    content: "\e6b4";
+
+}
+
+.my-account-input-container {
+  margin: 5px;
+  font-size: 20px;
+  border-bottom: 2px solid black;
+
+}
+
+.my-account-input-container a {
+  text-align: right;
+  padding-left: 60%;
+
+}
+
+#nbs-ajax-save {
+  color:  #3f76ca;
+  font-size: 14px;
+
+}
+
+.lenses-steps-title-number {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.lenses-steps-title-tag {
+    width: 33%;
+    display: contents;
+    float: left;
+    position: relative;
+    text-align: center;
+    visibility: hidden;
+}
+
+.lenses-steps-title-number.title.current {
+  background-color: red;
+}
+
+
+
+
+.thumbnail.card {
+  min-height: 33em;
+}
+
+
+.disabled {
+  visibility: hidden;
+}
+
+.lenses-images {
+  display: block;
+  height: auto;
+  max-height: 10em;
+
+}
+
+.lenses-title {
+
+    padding: 20px;
+    position: relative;
+    font-size: 21px;
+}
+
+.quest-prescription-button,
+.prescription-button,
+.btn-success,
+.front-end-lenses-next {
+  background-color: #527dbf !important;
+  color: white !important;;
+  padding: 15px;
+  border: 1px solid #527dbf;
+  border-radius: 8%;
+  margin-top: 16px;
+  position: relative;
+  margin: 10px;
+}
+
+.btn-success:hover,
+.front-end-lenses-next:hover {
+    background-color: white !important;
+    color: #527dbf !important;
+    text-decoration: none;
+    border: 1px solid #527dbf;
+}
+
+
+.list-group-item-text {
+    margin-bottom: 0;
+    line-height: 1.3;
+    height: 12em;
+    margin: 5%;
+}
+
+/* Owl Carousel
+========================================================================== */
+
+.animated  {
+  -webkit-animation-duration : 1000 ms  ;
+  animation-duration : 1000 ms  ;
+  -webkit-animation-fill-mode : both  ;
+  animation-fill-mode : both  ;
+}
+
+
+.icon {
+
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+}
+.owl-next,
+.owl-prev {
+
+ width:50%;
+}
+
+
+.owl-nav
+{
+ position: relative;
+ margin-top: -15% !important;
+ padding: 0px 0px 0px 25px;
+ visibility: hidden;
+}
+
+
+
+.owl-next:hover .icon,
+.owl-prev:hover .icon {
+ background: rgba(48, 117, 70, .8);
+ color: rgba(255, 255, 255, .9);
+}
+
+
+/* .owl-animated-out - only for current item */
+/* This is very important class. Use z-index if you want move Out item above In item */
+.owl-animated-out {
+  z-index : 1
+   }
+/* .owl-animated-in - only for upcoming item
+/* This is very important class. Use z-index if you want move In item above Out item */
+.owl-animated-in {
+  z-index : 0
+   }
+/* .fadeOut is style taken from Animation.css and this is how it looks in owl.carousel.css:  */
+.fadeOut  {
+  -webkit-animation-name : fadeOut  ;
+  animation-name : fadeOut  ;
+}
+
+.owl-item {
+
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.owl-carousel {
+ margin: 0;
+}
+
+
+
+.owl-carousel .owl-nav [class*=owl-]:hover {
+ background: ;
+ color: ;
+}
+
+.owl-carousel .owl-prev,
+.owl-carousel .owl-next {
+
+}
+
+.owl-carousel .owl-prev {
+ left: 0;
+}
+
+.owl-carousel .owl-next {
+ right: 0;
+}
+
+.owl-carousel .owl-dots {
+ background: transparent;
+ color: black;
+ top: -14px;
+ position: absolute;
+ width: 100vw;
+ visibility: hidden;
+}
+
+.owl-theme .owl-dots,.owl-theme .owl-nav{text-align:center;-webkit-tap-highlight-color:transparent}
+.owl-theme .owl-nav{margin-top:10px}
+.owl-theme .owl-nav [class*=owl-]{color:#FFF;font-size:14px;margin:5px;padding:4px 7px;background:;display:inline-block;cursor:pointer;border-radius:3px}
+.owl-theme .owl-nav [class*=owl-]:hover{background:;color:#FFF;text-decoration:none}
+.owl-theme .owl-nav .disabled{opacity:.5;cursor:default}
+.owl-theme .owl-nav.disabled+.owl-dots{margin-top:10px}
+.owl-theme .owl-dots .owl-dot{display:inline-block;zoom:1}
+.owl-theme .owl-dots .owl-dot span{width:10px;height:10px;margin:5px 7px;background:#D6D6D6;display:block;-webkit-backface-visibility:visible;transition:opacity .2s ease;border-radius:30px}
+
+.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:;}
+
+
+.owl-dots {
+   counter-reset: dots;
+}
+.owl-dot:before {
+   counter-increment:dots;
+   content: counter(dots);
+}

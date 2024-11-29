@@ -1,0 +1,23 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ input {
+   line-height: 2em !important;
+ }
+
+.myTable th {
+
+    border: 1px solid black;
+
+}
+
+.myTable td {
+
+  border: 1px solid black;
+  text-align: center;
+  padding: 3px;
+  margin: 3px;
+
+}
